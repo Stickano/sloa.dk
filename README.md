@@ -1,0 +1,11 @@
+# sloa.dk
+This is the codebase for https://sloa.dk
+
+This has been a long going hobby project - a personal portfolio site. 
+
+The site never got out of Alpha state before I started a second [site](https://github.com/Stickano/sloaSecond), which has taken even longer.
+
+Perhaps some day in the far future this will actually become a complete project.
+
+All the documentation for this project is in Danish. The site is mainly PHP and is done in functional pratice. 
+Check out the [second](https://github.com/Stickano/sloaSecond) (codebase) version of sloa.dk which uses OOP instead. 
