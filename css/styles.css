@@ -1,0 +1,259 @@
+@charset="utf-8";
+
+html{
+	width:100%;
+	height:100%;
+}
+
+body{
+	/*background-color:#F0F1EB;
+	background-color:#D0CECF;*/
+	background-color:#E5E5E5;
+	font-size:0.8vw;
+	height:100%;
+	overflow-y:scroll;
+	width:100%;
+}
+
+p{
+	font-size:1.5rem;
+}
+
+h1{
+	font-size:3rem;
+}
+
+h2{
+	font-size:2.9rem;
+}
+
+h3{
+	font-size:2.125rem;
+}
+
+h4{
+	font-size:1.1rem;
+}
+
+h5{
+	font-size:.95rem;
+}
+
+h6{
+	font-size:.875rem;
+}
+
+.bg0{
+	background-image:url(../media/design/sky.png);
+	background-position:bottom center;
+	background-repeat:no-repeat;
+	background-size:100%;
+	bottom:0px;
+	left:0px;
+	min-height:100%;
+	opacity:.04;
+	position:fixed;
+	right:0px;
+	top:0px;
+	width:100%;
+	z-index:-2;
+}
+
+.bg1{
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	top:0px;
+	width:100%;
+	min-height:100%;
+	background-image:url(../media/design/mountain2.png);
+	background-position:bottom center;
+	background-size:100%;
+	background-repeat:no-repeat;
+	z-index:-2;
+	opacity:.5;
+}
+
+.bg2{
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	top:0px;
+	z-index:-3;
+	width:100%;
+	min-height:100%;
+	background-image:url(../media/design/treelines.png);
+	background-position:bottom center;
+	background-size:100%;
+	background-repeat:no-repeat;
+	opacity:.6;
+}
+
+.headerCon{
+	padding-top:1.5%;
+}
+
+.loggedBar{
+	position:fixed;
+	right:0;
+	left:0;
+	padding:.3%;
+	border-bottom:2px solid rgba(255, 255, 255, .5);
+	background-color:#141E26;
+	color:white;
+	z-index:99;
+}
+
+.footerCon{
+	margin:1.5% 0 .5%;
+	border-top:1px solid rgba(0, 0, 0, .2);
+	padding-top:1.5%;
+	font-family: 'Raleway', sans-serif;
+	color:#53575A;
+}
+
+a.sloaLogo:active,a.sloaLogo:visited,a.sloaLogo:link{
+	font-family: 'Abel', sans-serif;
+	font-size:160%;
+	color:#4A4A4A;
+	text-decoration:none;
+	transition: opacity .35s ease-in-out;
+   -moz-transition: opacity .35s ease-in-out;
+   -webkit-transition: opacity .35s ease-in-out;
+}
+a.sloaLogo:hover{
+	opacity:.5;
+}
+
+a.mainButton:active,a.mainButton:link,a.mainButton:visited,a.mainButton:hover{
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin:.5% 0 0 2%;
+	text-decoration:none;
+	font-size:140%;
+	color:#53575A;
+	border:none;
+}
+a.mainButton:hover{
+	color:#232224;
+	opacity:.8;
+	transition: opacity .15s ease-in-out;
+   -moz-transition: opacity .15s ease-in-out;
+   -webkit-transition: opacity .15s ease-in-out;
+}
+
+.frontHead{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.socImg{
+	width:20px;
+	float:right;
+}
+
+a.socBut{
+	border:none;
+	text-decoration:none;
+}
+
+.blogCon{
+	width:100%;
+	clear:both;
+}
+
+.headline{
+	font-family: 'Roboto Condensed', sans-serif;
+	letter-spacing:.135px;
+}
+
+.blogDateCon{
+	margin:-1% 0 .7% 1%;
+	clear:both;
+	color:blue;
+}
+
+.blogMediaLink{
+	margin-top:30px;
+	width:100%;
+}
+
+.blogMediaCon{
+	width:45%;
+	text-align:center;
+}
+
+.width100{
+	width:100%;
+}
+
+.blogNoMedia{
+	opacity:.1;
+	margin-top:30px;
+}
+
+.marginTop2{
+	margin-top:2%;
+}
+
+.sloaGodLogo{
+	font-family: 'Abel', sans-serif;
+	font-size:140%;
+	color:white;
+	text-decoration:none;
+	margin-bottom:2%;
+	transition: opacity .35s ease-in-out;
+   -moz-transition: opacity .35s ease-in-out;
+   -webkit-transition: opacity .35s ease-in-out;
+}
+.sloaGodLogo:hover{
+	opacity:.5;
+}
+
+.godMenCon{
+	border-right:2px solid rgba(255, 255, 255, .5);
+	background-color:#141E26;
+	bottom:0;
+	top:0;
+	padding-top:.3%;
+	position:fixed;
+}
+
+.marRight2{
+	margin-right:2%;
+}
+
+.wysiwyg-color-blue{
+	color:blue;
+}
+
+.wysiwyg-color-red{
+	color:red;
+}
+
+.wysiwyg-color-green{
+	color:darkgreen;
+}
+
+.alpha{
+	font-size:140%;
+	opacity:.5;
+	color:darkgrey;
+}
+
+.servicesHead{
+	font-size:80%;
+}
+
+.portPreviewImage{
+	width:15%;
+	height:15%;
+}
+
+.portDateCon{
+	color:blue;
+}
+
+a.txtA{
+	color:black;
+}
