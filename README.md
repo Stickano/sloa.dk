@@ -1,5 +1,5 @@
 # sloa.dk
-This is the codebase for https://sloa.dk
+sloa.dk was a dying project and is no longer available. This was it's codebase though.
 
 This has been a long going hobby project - a personal portfolio site. 
 
